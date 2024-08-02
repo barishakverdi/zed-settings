@@ -1,0 +1,187 @@
+{
+	"html": {
+		"prefix": "html",
+		"body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<title>$0</title>\n\t<link rel=\"stylesheet\" href=\"\">\n</head>\n<body>\n\t\n</body>\n</html>",
+		"description": "HTML Document Structure"
+	},
+	"head": {
+		"prefix": "head",
+		"body": "<head>\n\t<meta charset=\"UTF-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<title></title>\n</head>",
+		"description": "HTML Head Element"
+	},
+	"title": {
+		"prefix": "title",
+		"body": "<title></title>",
+		"description": "HTML Title Element"
+	},
+	"meta": {
+		"prefix": "meta",
+		"body": "<meta name=\"\" content=\"\">",
+		"description": "HTML Meta Tag"
+	},
+	"link": {
+		"prefix": "link",
+		"body": "<link rel=\"stylesheet\" href=\"\">",
+		"description": "HTML Link Element"
+	},
+	"script": {
+		"prefix": "script",
+		"body": "<script src=\"$0\"></script>",
+		"description": "HTML Script Element"
+	},
+	"style": {
+		"prefix": "style",
+		"body": "<style>$0</style>",
+		"description": "HTML Style Element"
+	},
+	"div": {
+		"prefix": "div",
+		"body": "<div>$0</div>",
+		"description": "HTML Div Element"
+	},
+	"class": {
+		"prefix": "c",
+		"body": "<div class=\"$0\">\n\t\n</div>",
+		"description": "HTML Class"
+	},
+	"innerClass": {
+		"prefix": "class=",
+		"body": "class=\"$0\"",
+		"description": "HTML Class"
+	},
+	"span": {
+		"prefix": "span",
+		"body": "<span>$0</span>",
+		"description": "HTML Span Element"
+	},
+	"a": {
+		"prefix": "a",
+		"body": "<a href=\"\">$0</a>",
+		"description": "HTML Anchor Element"
+	},
+	"ul": {
+		"prefix": "ul",
+		"body": "<ul>\n\t<li>$0</li>\n</ul>",
+		"description": "HTML Unordered List"
+	},
+	"ol": {
+		"prefix": "ol",
+		"body": "<ol>\n\t<li>$0</li>\n</ol>",
+		"description": "HTML Ordered List"
+	},
+	"li": {
+		"prefix": "li",
+		"body": "<li>$0</li>",
+		"description": "HTML List Item"
+	},
+	"img": {
+		"prefix": "img",
+		"body": "<img src=\"\" alt=\"\">",
+		"description": "HTML Image Element"
+	},
+	"h1": {
+		"prefix": "h1",
+		"body": "<h1>$0</h1>",
+		"description": "HTML Heading 1"
+	},
+	"h2": {
+		"prefix": "h2",
+		"body": "<h2>$0</h2>",
+		"description": "HTML Heading 2"
+	},
+	"h3": {
+		"prefix": "h3",
+		"body": "<h3>$0</h3>",
+		"description": "HTML Heading 3"
+	},
+	"h4": {
+		"prefix": "h4",
+		"body": "<h4>$0</h4>",
+		"description": "HTML Heading 4"
+	},
+	"h5": {
+		"prefix": "h5",
+		"body": "<h5>$0</h5>",
+		"description": "HTML Heading 5"
+	},
+	"h6": {
+		"prefix": "h6",
+		"body": "<h6>$0</h6>",
+		"description": "HTML Heading 6"
+	},
+	"p": {
+		"prefix": "p",
+		"body": "<p>$0</p>",
+		"description": "HTML Paragraph"
+	},
+	"table": {
+		"prefix": "table",
+		"body": "<table>$0</table>",
+		"description": "HTML Table"
+	},
+	"tr": {
+		"prefix": "tr",
+		"body": "<tr>$0</tr>",
+		"description": "HTML Table Row"
+	},
+	"td": {
+		"prefix": "td",
+		"body": "<td>$0</td>",
+		"description": "HTML Table Data"
+	},
+	"th": {
+		"prefix": "th",
+		"body": "<th>$0</th>",
+		"description": "HTML Table Header"
+	},
+	"form": {
+		"prefix": "form",
+		"body": "<form action=\"\" method=\"post\">\n\t$0\n</form>",
+		"description": "HTML Form Element"
+	},
+	"input": {
+		"prefix": "input",
+		"body": "<input type=\"\" name=\"\" id=\"\">",
+		"description": "HTML Input Element"
+	},
+	"label": {
+		"prefix": "label",
+		"body": "<label for=\"\"></label>",
+		"description": "HTML Lavel Element"
+	},
+	"button": {
+		"prefix": "button",
+		"body": "<button type=\"button\">$0</button>",
+		"description": "HTML Button Element"
+	},
+	"select": {
+		"prefix": "select",
+		"body": "<select name=\"\">\n\t<option value=\"\">$0</option>\n</select>",
+		"description": "HTML Select Element"
+	},
+	"option": {
+		"prefix": "option",
+		"body": "<option value=\"\">$0</option>",
+		"description": "HTML Option Element"
+	},
+	"textarea": {
+		"prefix": "textarea",
+		"body": "<textarea name=\"\" id=\"\" cols=\"30\" rows=\"10\">$0</textarea>",
+		"description": "HTML Textarea Element"
+	},
+	"each": {
+		"prefix": "each",
+		"body": ["{{#each ${1:array} as |${2:item}|}}", "", "{{/each}}"],
+		"description": "Handlebars each block"
+	},
+	"for": {
+		"prefix": "for",
+		"body": ["{{#for ${1:1} 4 ${2:1}}}", "", "{{/for}}"],
+		"description": "Handlebars each block"
+	},
+	"if": {
+		"prefix": "if",
+		"body": ["{{#if ${1:condition}}}", "", "{{/if}}"],
+		"description": "Handlebars each block"
+	}
+}
