@@ -1,0 +1,86 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "vim_mode": false,
+  "base_keymap": "JetBrains",
+  "ui_font_size": 14,
+  "buffer_font_size": 12,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Fleet Dark Purple"
+  },
+  "autosave": "on_focus_change",
+  "auto_install_extension": {
+    "html": true,
+    "php": true
+  },
+  "auto_update": true,
+  "confirm_quit": true,
+  "disabled_in": [
+    "comment"
+  ],
+  "current_line_highlight": "gutter",
+  "tab_bar": {
+    "show": true,
+    "show_nav_history_buttons": true
+  },
+  "tabs": {
+    "close_position": "right",
+    "file_icons": true,
+    "git_status": true,
+    "activate_on_close": "neighbour"
+  },
+  "format_on_save": "off",
+  "formatter": "language_server",
+  "always_treat_brackets_as_autoclosed": true,
+  "file_types": {
+    "Handlebars": [
+      "html"
+    ]
+  },
+  "git": {
+    "inline_blame": {
+      "enabled": true,
+      "delay_ms": 200,
+      "show_commit_summary": true
+    }
+  },
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+    "show_background": false,
+    "edit_debounce_ms": 400,
+    "scroll_debounce_ms": 50
+  },
+  "hour_format": "hour24",
+  "languages": {
+    "JavaScript": {
+      "tab_size": 4
+    },
+    "PHP": {
+      "language_servers": [
+        "intelephense",
+        "!phpactor",
+        "..."
+      ]
+    }
+  },
+  "preview_tabs": {
+    "enabled": true,
+    "enable_preview_from_file_finder": true,
+    "enable_preview_from_code_navigation": false
+  },
+  "terminal": {
+    "copy_on_select": true
+  },
+  "ensure_final_newline_on_save": false
+}
