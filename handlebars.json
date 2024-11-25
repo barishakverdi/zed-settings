@@ -49,6 +49,11 @@
 		"body": "class=\"$0\"",
 		"description": "HTML Class"
 	},
+	"br": {
+		"prefix": "br",
+		"body": "<br/>$0",
+		"description": "HTML br"
+	},
 	"span": {
 		"prefix": "span",
 		"body": "<span>$0</span>",
@@ -177,11 +182,21 @@
 	"for": {
 		"prefix": "for",
 		"body": ["{{#for ${1:1} 4 ${2:1}}}", "", "{{/for}}"],
-		"description": "Handlebars each block"
+		"description": "Handlebars for block"
+	},
+	"times": {
+		"prefix": "times",
+		"body": ["{{#times ${0:2} }}", "", "{{/times}}"],
+		"description": "Handlebars for block"
 	},
 	"if": {
 		"prefix": "if",
 		"body": ["{{#if ${1:condition}}}", "", "{{/if}}"],
-		"description": "Handlebars each block"
+		"description": "Handlebars if block"
+	},
+	"comp": {
+		"prefix": "comp",
+		"body": "{{> $0 }}",
+		"description": "Handlebars component"
 	}
 }

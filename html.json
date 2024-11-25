@@ -1,0 +1,27 @@
+{
+	"each": {
+		"prefix": "each",
+		"body": ["{{#each ${1:array} as |${2:item}|}}", "", "{{/each}}"],
+		"description": "Handlebars each block"
+	},
+	"for": {
+		"prefix": "for",
+		"body": ["{{#for ${1:1} 4 ${2:1}}}", "", "{{/for}}"],
+		"description": "Handlebars for block"
+	},
+	"times": {
+		"prefix": "times",
+		"body": ["{{#times ${0:2} }}", "", "{{/times}}"],
+		"description": "Handlebars for block"
+	},
+	"if": {
+		"prefix": "if",
+		"body": ["{{#if ${1:condition}}}", "", "{{/if}}"],
+		"description": "Handlebars if block"
+	},
+	"comp": {
+		"prefix": "comp",
+		"body": "{{> $0 }}",
+		"description": "Handlebars component"
+	}
+}
